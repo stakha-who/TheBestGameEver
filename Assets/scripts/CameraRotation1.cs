@@ -4,9 +4,9 @@ public class CameraRotation : MonoBehaviour
 {
 
     public Transform CameraAxisTransform;
-    public float MinAngle = -20;
-    public float MaxAngle = 30;
-    public float RotationSpeed = 1;
+    public float MinAngle;
+    public float MaxAngle;
+    public float RotationSpeed;
 
     void Update()
     {
